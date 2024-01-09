@@ -41,8 +41,8 @@ border-image:url(:/images/BG1.jpg);
    <widget class="QFrame" name="Background">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>40</y>
+      <x>10</x>
+      <y>80</y>
       <width>401</width>
       <height>291</height>
      </rect>
@@ -155,6 +155,9 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
   box-sizing: border-box;
   echoMode: Password;
 }</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_2">

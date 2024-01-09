@@ -41,7 +41,7 @@ border-image:url(:/images/BG1.jpg);
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>-10</y>
+     <y>90</y>
      <width>401</width>
      <height>401</height>
     </rect>
@@ -65,8 +65,8 @@ border-image:url(:/images/BG1.jpg);
    <widget class="QLabel" name="h3">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>0</y>
+      <x>80</x>
+      <y>-10</y>
       <width>211</width>
       <height>61</height>
      </rect>
@@ -76,19 +76,21 @@ border-image:url(:/images/BG1.jpg);
     font-size: 20px;
     font-weight: 500;
     line-height: 42px;
+	margin : 40px;
     text-align: center;
     color: #000000;
+	text-decoration-line: underline;
 }</string>
     </property>
     <property name="text">
-     <string>Creation D'un Compte</string>
+     <string>Devenir Client </string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>12</x>
-      <y>69</y>
+      <x>0</x>
+      <y>40</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -109,8 +111,8 @@ border-image:url(:/images/BG1.jpg);
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>120</y>
+      <x>0</x>
+      <y>140</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -132,7 +134,7 @@ border-image:url(:/images/BG1.jpg);
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>60</y>
+      <y>40</y>
       <width>191</width>
       <height>41</height>
      </rect>
@@ -170,8 +172,8 @@ background-color:#D3D3D3;
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>115</y>
+      <x>180</x>
+      <y>140</y>
       <width>191</width>
       <height>41</height>
      </rect>
@@ -206,8 +208,8 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>160</y>
+      <x>0</x>
+      <y>180</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -229,7 +231,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>200</y>
+      <y>220</y>
       <width>80</width>
       <height>41</height>
      </rect>
@@ -260,17 +262,12 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
       <string>Mme</string>
      </property>
     </item>
-    <item>
-     <property name="text">
-      <string>Mlle</string>
-     </property>
-    </item>
    </widget>
    <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>200</y>
+      <x>100</x>
+      <y>220</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -290,8 +287,8 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
    <widget class="QLineEdit" name="lineEdit_4">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>200</y>
+      <x>240</x>
+      <y>220</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -311,8 +308,8 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>250</y>
+      <x>0</x>
+      <y>270</y>
       <width>81</width>
       <height>31</height>
      </rect>
@@ -334,7 +331,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>250</y>
+      <y>270</y>
       <width>281</width>
       <height>41</height>
      </rect>
@@ -354,8 +351,8 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>310</y>
+      <x>20</x>
+      <y>320</y>
       <width>51</width>
       <height>31</height>
      </rect>
@@ -376,8 +373,8 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
    <widget class="QComboBox" name="comboBox_3">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>310</y>
+      <x>100</x>
+      <y>320</y>
       <width>211</width>
       <height>41</height>
      </rect>
@@ -413,6 +410,52 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
       <string>Mlle</string>
      </property>
     </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Votre Mot De Passe :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>90</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_6{
+background-color: rgba(0, 0, 0, 0); /* transparent black */
+  border: 1px solid #ccc; /* add a border for visibility */
+  border-radius: 5px; /* adjust the radius to your liking */
+  padding: 10px; /* adjust padding as needed */
+  color: #333; /* set text color */
+  display: block; /* ensure it's a block element */
+  box-sizing: border-box;
+}</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
    </widget>
   </widget>
  </widget>
