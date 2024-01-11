@@ -130,7 +130,7 @@ border-image:url(:/images/BG1.jpg);
      <string>Type de compte voulu :</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="NumCpt">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -140,7 +140,7 @@ border-image:url(:/images/BG1.jpg);
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#lineEdit_2{
+     <string notr="true">#NumCpt{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -151,25 +151,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
 }</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>360</y>
-      <width>111</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">#pushButton_2{
-background-color:#D3D3D3;
-}</string>
-    </property>
-    <property name="text">
-     <string>S'inscrire</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="TYPE">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -179,7 +161,7 @@ background-color:#D3D3D3;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#comboBox{
+     <string notr="true">#TYPE{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -227,7 +209,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      <string>Votre Nom  :</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_2">
+   <widget class="QComboBox" name="GENRE">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -237,7 +219,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#comboBox_2{
+     <string notr="true">#GENRE{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -263,7 +245,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </property>
     </item>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="NOM">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -273,7 +255,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#lineEdit_3{
+     <string notr="true">#NOM{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -284,7 +266,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
 }</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="PRENOM">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -294,7 +276,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#lineEdit_4{
+     <string notr="true">#PRENOM{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -327,7 +309,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      <string>Telephone :</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLineEdit" name="TELE">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -337,7 +319,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#lineEdit_5{
+     <string notr="true">#TELE{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -370,7 +352,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      <string>Ville :</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_3">
+   <widget class="QComboBox" name="VILLE">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -380,8 +362,8 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#comboBox_3{
-background-color: rgba(0, 0, 0, 0); /* transparent black */
+     <string notr="true">#VILLE{
+  background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
   padding: 10px; /* adjust padding as needed */
@@ -433,7 +415,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      <string>Votre Mot De Passe :</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_6">
+   <widget class="QLineEdit" name="MDP">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -443,7 +425,7 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">#lineEdit_6{
+     <string notr="true">#MDP{
 background-color: rgba(0, 0, 0, 0); /* transparent black */
   border: 1px solid #ccc; /* add a border for visibility */
   border-radius: 5px; /* adjust the radius to your liking */
@@ -457,6 +439,24 @@ background-color: rgba(0, 0, 0, 0); /* transparent black */
      <enum>QLineEdit::Password</enum>
     </property>
    </widget>
+  </widget>
+  <widget class="QPushButton" name="Sinscrire">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton_2{
+background-color:#D3D3D3;
+}</string>
+   </property>
+   <property name="text">
+    <string>S'inscrire</string>
+   </property>
   </widget>
  </widget>
  <resources>

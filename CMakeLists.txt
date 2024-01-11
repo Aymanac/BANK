@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
+
 project(EMSIBank VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_AUTOUIC ON)
@@ -21,7 +22,7 @@ set(PROJECT_SOURCES
         inscription.h
         inscription.ui
 )
-
+find_package(Qt6 REQUIRED COMPONENTS Sql)
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(EMSIBank
         MANUAL_FINALIZATION
@@ -46,6 +47,7 @@ else()
         )
     endif()
 endif()
+target_link_libraries(EMSIBank PRIVATE Qt6::Sql)
 
 target_link_libraries(EMSIBank PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
